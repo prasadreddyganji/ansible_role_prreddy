@@ -1,0 +1,7 @@
+---
+# tasks file for x1
+ - name: x1task
+   file:
+    path: "/root/f11"
+    state: touch
+   ignore_errors: yes
